@@ -78,8 +78,8 @@ public class Main {
                 }
             } else {
                 System.out.println("Error: Ingrese un número entero.");
-                scanner.next(); // Limpiar el buffer del scanner
-                opcion = -1; // Establecer una opción inválida para repetir el bucle
+                scanner.next(); 
+                opcion = -1; 
             }
         } while (opcion != 0);
 
